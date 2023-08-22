@@ -7,15 +7,19 @@ import WelcomeScreen from './SRC/Components/WelcomeScreen';
 
 function App() {
   return (
-    <View
-      style={{
-        flex: 1,
-        backgroundColor: '#495E57',
-      }}>
-      <Header />
-      <WelcomeScreen />
-      <Footer />
-    </View>
+    <>
+      <View
+        style={{
+          flex: 1,
+          backgroundColor: '#495E57',
+        }}>
+        <Header />
+        <WelcomeScreen />
+      </View>
+      <View>
+        <Footer />
+      </View>
+    </>
   );
 }
 
