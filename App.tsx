@@ -1,20 +1,18 @@
 import React from 'react';
 
 import {StyleSheet, View} from 'react-native';
+import Footer from './SRC/Components/Footer';
 import Header from './SRC/Components/Header';
 
 function App() {
   return (
-    // <View style={styles.sectionContainer}>
-    //   <Header />
-    // </View>
-
     <View
       style={{
         flex: 1,
         backgroundColor: '#495E57',
       }}>
       <Header />
+      <Footer />
     </View>
   );
 }

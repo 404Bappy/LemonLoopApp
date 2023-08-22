@@ -3,8 +3,10 @@ import React from 'react';
 
 export default function Header() {
   return (
-    <View>
-      <Text>Little Lemon Restrurent</Text>
+    <View style={{flex: 0.2, backgroundColor: '#F4CE14'}}>
+      <Text style={{padding: 40, fontSize: 30, color: 'black'}}>
+        Welcome to Little Lemon
+      </Text>
     </View>
   );
 }
