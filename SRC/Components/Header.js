@@ -6,13 +6,13 @@ export default function Header() {
     <View style={{flex: 0.2, backgroundColor: '#F4CE14'}}>
       <Text
         style={{
-          padding: 25,
-          fontSize: 40,
+          padding: 17,
+          fontSize: 30,
           color: 'black',
           textAlign: 'center',
         }}
         numberOfLines={2}>
-        Welcome To <Text style={{fontWeight: 'bold'}}>Lemon Loop</Text>
+        <Text style={{fontWeight: 'bold'}}>Lemon Loop</Text>
       </Text>
     </View>
   );

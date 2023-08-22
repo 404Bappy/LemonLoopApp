@@ -6,6 +6,15 @@ export default function WelcomeScreen() {
     <View>
       <Text
         style={{
+          fontSize: 30,
+          padding: 40,
+          textAlign: 'center',
+          color: '#EDEFEE',
+        }}>
+        Welcome To Lemon Loop
+      </Text>
+      <Text
+        style={{
           fontSize: 24,
           padding: 20,
           textAlign: 'center',
