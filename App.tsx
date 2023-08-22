@@ -3,6 +3,7 @@ import React from 'react';
 import {StyleSheet, View} from 'react-native';
 import Footer from './SRC/Components/Footer';
 import Header from './SRC/Components/Header';
+import WelcomeScreen from './SRC/Components/WelcomeScreen';
 
 function App() {
   return (
@@ -10,9 +11,9 @@ function App() {
       style={{
         flex: 1,
         backgroundColor: '#495E57',
-        
       }}>
       <Header />
+      <WelcomeScreen />
       <Footer />
     </View>
   );
