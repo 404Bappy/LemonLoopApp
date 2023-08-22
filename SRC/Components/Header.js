@@ -5,7 +5,7 @@ export default function Header() {
   return (
     <View style={{flex: 0.12, backgroundColor: '#F4CE14'}}>
       <Text style={{padding: 25, fontSize: 30, color: 'black'}}>
-        WelCome To LemonLoop
+        Welcome To LemonLoop
       </Text>
     </View>
   );

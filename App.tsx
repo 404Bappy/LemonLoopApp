@@ -10,6 +10,7 @@ function App() {
       style={{
         flex: 1,
         backgroundColor: '#495E57',
+        
       }}>
       <Header />
       <Footer />
