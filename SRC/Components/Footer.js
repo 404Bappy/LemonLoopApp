@@ -3,8 +3,10 @@ import React from 'react';
 
 export default function Footer() {
   return (
-    <View style={{flex: 0.03, backgroundColor: '#F4CE14', marginTop: 30}}>
-      <Text>This is Footer</Text>
+    <View style={{backgroundColor: '#F4CE14'}}>
+      <Text style={{textAlign: 'center', color: 'black '}}>
+        ©All Right Reserved by Lemon Loop
+      </Text>
     </View>
   );
 }
