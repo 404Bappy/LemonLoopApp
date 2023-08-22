@@ -3,9 +3,9 @@ import React from 'react';
 
 export default function Header() {
   return (
-    <View style={{flex: 0.2, backgroundColor: '#F4CE14'}}>
-      <Text style={{padding: 40, fontSize: 30, color: 'black'}}>
-        Welcome to Little Lemon
+    <View style={{flex: 0.12, backgroundColor: '#F4CE14'}}>
+      <Text style={{padding: 25, fontSize: 30, color: 'black'}}>
+        WelCome To LemonLoop
       </Text>
     </View>
   );
