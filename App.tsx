@@ -1,6 +1,6 @@
 import React from 'react';
 
-import {StyleSheet, View} from 'react-native';
+import {ScrollView, StyleSheet, View} from 'react-native';
 import Footer from './SRC/Components/Footer';
 import Header from './SRC/Components/Header';
 import MenuItems from './SRC/Components/MenuItems';
@@ -14,9 +14,11 @@ function App() {
           flex: 1,
           backgroundColor: '#495E57',
         }}>
-        <Header />
-        <WelcomeScreen />
-        <MenuItems />
+        <ScrollView>
+          <Header />
+          <WelcomeScreen />
+          <MenuItems />
+        </ScrollView>
       </View>
       <View>
         <Footer />

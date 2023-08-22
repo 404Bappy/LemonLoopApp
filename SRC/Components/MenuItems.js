@@ -20,7 +20,9 @@ export default function MenuItems() {
           }}>
           View Menu
         </Text>
-        <Text>{menuItemsToDisplay[0]}</Text>
+        <Text style={{color: yellow, textAlign: 'center'}}>
+          {menuItemsToDisplay[0]}
+        </Text>
       </ScrollView>
     </View>
   );
