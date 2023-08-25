@@ -31,6 +31,7 @@ function App() {
 //   sectionContainer: {
 //     marginTop: 32,
 //     paddingHorizontal: 24,
+
 //     backgroundColor: '#495E57',
 //   },
 //   sectionTitle: {
